@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "modo": "imagem",
+    "fotos": [
+      {
+        "src": "/fotos/hero-pelourinho-2048.webp",
+        "alt": "Operadora do ZAS, de farda amarela, sorrindo e mostrando um folheto do ZAS no Pelourinho, em Salvador.",
+        "largura": 2048,
+        "altura": 768,
+        "posicao": "55% 40%",
+        "posicaoCelular": "58% 30%",
+        "versoes": {
+          "1024": "/fotos/hero-pelourinho-1024.webp",
+          "1536": "/fotos/hero-pelourinho-1536.webp",
+          "2048": "/fotos/hero-pelourinho-2048.webp"
+        }
+      }
+    ]
+  },
+  "operacao": {
+    "modo": "imagem",
+    "fotos": [
+      {
+        "src": "/fotos/operacao-equipe-1024.webp",
+        "alt": "Equipe do ZAS reunida em uma sala, com guardadores e guardadoras de farda amarela e agentes da Transalvador.",
+        "largura": 1024,
+        "altura": 768,
+        "versoes": {
+          "533": "/fotos/operacao-equipe-533.webp",
+          "1024": "/fotos/operacao-equipe-1024.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-elevador-lacerda-883.webp",
+        "alt": "Atendente do ZAS em cadeira de rodas, sorrindo na calçada perto do Elevador Lacerda.",
+        "largura": 883,
+        "altura": 1024,
+        "versoes": {
+          "345": "/fotos/operacao-elevador-lacerda-345.webp",
+          "883": "/fotos/operacao-elevador-lacerda-883.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-comprovante-1024.webp",
+        "alt": "Guardador do ZAS sorrindo e mostrando um comprovante de estacionamento.",
+        "largura": 1024,
+        "altura": 1024,
+        "versoes": {
+          "400": "/fotos/operacao-comprovante-400.webp",
+          "1024": "/fotos/operacao-comprovante-1024.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-orla-750.webp",
+        "alt": "Guardador do ZAS conferindo os carros estacionados na orla, entre coqueiros.",
+        "largura": 750,
+        "altura": 1024,
+        "versoes": {
+          "293": "/fotos/operacao-orla-293.webp",
+          "750": "/fotos/operacao-orla-750.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-pelourinho-1024.webp",
+        "alt": "Operadora do ZAS sorrindo e mostrando um folheto no Pelourinho.",
+        "largura": 1024,
+        "altura": 576,
+        "versoes": {
+          "711": "/fotos/operacao-pelourinho-711.webp",
+          "1024": "/fotos/operacao-pelourinho-1024.webp"
+        }
+      }
+    ]
+  }
+}

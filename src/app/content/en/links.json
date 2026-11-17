@@ -1,0 +1,27 @@
+{
+  "pqmVirtual": {
+    "rotulo": "Start parking",
+    "url": "https://app.zaszonaazul.com.br/#/welcome"
+  },
+  "cadastro": {
+    "rotulo": "Create an account",
+    "url": "https://app.zaszonaazul.com.br/#/registration"
+  },
+  "baixeOZas": {
+    "rotulo": "Get ZAS",
+    "url": "/#baixe-o-zas"
+  },
+  "googlePlay": {
+    "rotulo": "Google Play",
+    "url": "https://play.google.com/store/apps/details?id=com.alpdex.zas.mobile.user&hl=en"
+  },
+  "appStore": {
+    "rotulo": "App Store",
+    "url": "https://apps.apple.com/br/app/zas-zona-azul-salvador/id6775492987"
+  },
+  "versaoWeb": {
+    "detalhe": "Web version",
+    "rotulo": "Open in the browser",
+    "url": "https://app.zaszonaazul.com.br/"
+  }
+}

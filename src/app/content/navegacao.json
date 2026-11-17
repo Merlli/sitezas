@@ -1,0 +1,11 @@
+{
+  "principal": [
+    { "rotulo": "Estacione agora", "secao": "estacione-agora", "rota": "/estacione-agora" },
+    { "rotulo": "Baixe o ZAS", "secao": "baixe-o-zas" },
+    { "rotulo": "Como funciona", "secao": "como-funciona", "rota": "/como-funciona" },
+    { "rotulo": "Tarifas e regras", "secao": "tarifas", "rota": "/tarifas-e-regras" },
+    { "rotulo": "Dúvidas", "secao": "duvidas", "rota": "/duvidas" },
+    { "rotulo": "Suporte", "secao": "suporte" },
+    { "rotulo": "Institucional", "secao": "operacao" }
+  ]
+}

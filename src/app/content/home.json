@@ -1,0 +1,68 @@
+{
+  "principal": {
+    "titulo": "Estacionou em Salvador? Ative sua Zona Azul pelo ZAS.",
+    "subtitulo": "Confira a sinalização, escolha o tempo correspondente e confirme a ativação para a placa do seu veículo.",
+    "ctaPrincipal": "Ativar Estacionamento",
+    "ctaSecundario": "Crie sua conta"
+  },
+  "oQueE": {
+    "titulo": "ZAS: o aplicativo oficial da Zona Azul de Salvador",
+    "paragrafos": [
+      "Desde outubro de 2018, a Zona Azul de Salvador é digital: a Transalvador trocou os talões de papel pela Cartela Azul Digital. Com o ZAS, você usa a sua cartela direto no celular."
+    ],
+    "chamadaLojas": "Baixe o ZAS:"
+  },
+  "voceEstacionou": {
+    "titulo": "Você Estacionou - Confira o que fazer agora",
+    "passos": [
+      "Confira a sinalização da vaga.",
+      "Escolha a placa do veículo.",
+      "Selecione o tempo indicado no local.",
+      "Ative e confira a confirmação."
+    ],
+    "acao": { "rotulo": "Ver passo a passo completo", "rota": "/estacione-agora" },
+    "apoio": "A regra de estacionamento pode variar conforme o local. Antes de ativar, confira a placa de sinalização e escolha no ZAS a duração correspondente."
+  },
+  "tarifas": {
+    "titulo": "Tarifas",
+    "introducao": "Escolha o período conforme a sinalização.",
+    "tabela": {
+      "colunas": { "regra": "Regra", "duracao": "Duração", "valor": "Valor" },
+      "linhas": [
+        { "regra": "Curta duração", "duracao": "2 horas", "valor": "R$ 3,00" },
+        { "regra": "Média duração", "duracao": "6 horas", "valor": "R$ 6,00" },
+        { "regra": "Longa duração", "duracao": "12 horas", "valor": "R$ 9,00" },
+        { "regra": "Evento de pequeno porte", "duracao": "Conforme evento", "valor": "R$ 10,00" },
+        { "regra": "Evento de grande porte", "duracao": "Conforme evento", "valor": "R$ 20,00" }
+      ]
+    },
+    "acao": { "rotulo": "Ver mais sobre Tarifas e Regras", "rota": "/tarifas-e-regras" }
+  },
+  "fiscalizacao": {
+    "titulo": "Fiscalização",
+    "texto": "A fiscalização consulta a placa do veículo no sistema. Por isso, confira sempre se a ativação foi concluída para a placa correta e acompanhe o horário de término."
+  },
+  "institucional": {
+    "titulo": "O ZAS é um aplicativo credenciado para a Zona Azul Digital de Salvador",
+    "texto": "O aplicativo permite adquirir e ativar créditos de estacionamento rotativo, conforme as regras definidas para o município e indicadas na sinalização local."
+  },
+  "operacao": {
+    "rotulo": "Nas ruas de Salvador",
+    "titulo": "Quem faz o ZAS acontecer",
+    "destaque": "Salvador cuidada por quem chama a cidade de casa.",
+    "pontos": [
+      {
+        "titulo": "Sindicato de Salvador",
+        "texto": "O Sindguarda é o sindicato dos guardadores e guardadoras que atuam na Zona Azul da cidade."
+      },
+      {
+        "titulo": "Renda que fica aqui",
+        "texto": "Com o ZAS, o valor pago pelo estacionamento fica em Salvador e gera renda para esses profissionais e suas famílias."
+      },
+      {
+        "titulo": "Equipe inclusiva",
+        "texto": "Homens, mulheres e pessoas com necessidades específicas trabalham lado a lado para entregar o melhor para Salvador."
+      }
+    ]
+  }
+}

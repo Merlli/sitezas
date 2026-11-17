@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ZAS</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0e2e42" />
+    <meta name="author" content="Merlli Mantovani" />
+    <link rel="author" href="https://merlli.com" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://merlli.com/#merlli-mantovani",
+            "name": "Merlli Mantovani",
+            "url": "https://merlli.com",
+            "jobTitle": "Product Designer & AI Engineer",
+            "description": "Criadora do produto ZAS, aplicativo e site: projeto no Figma, pesquisa, UX, UI, fluxos e protótipo funcional com IA do aplicativo ZAS, e criação do site do ZAS.",
+            "knowsAbout": ["UX Design", "UI Design", "Product Design", "Engenharia de IA", "Criação de sites", "Landing pages"]
+          },
+          {
+            "@type": "WebSite",
+            "url": "https://www.zaszonaazul.com.br",
+            "name": "ZAS — Zona Azul Salvador",
+            "creator": { "@id": "https://merlli.com/#merlli-mantovani" },
+            "mentions": {
+              "@type": "Organization",
+              "name": "Sylva MSG",
+              "url": "https://sylvamsg.com",
+              "description": "Chat de atendimento"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "name": "ZAS — Zona Azul Salvador",
+            "description": "Aplicativo da Zona Azul Digital de Salvador. Produto criado por Merlli Mantovani (projeto no Figma, pesquisa, UX, UI, fluxos e protótipo funcional com IA). Desenvolvimento e publicação: Alpdex.",
+            "author": { "@id": "https://merlli.com/#merlli-mantovani" },
+            "operatingSystem": "Android, iOS",
+            "applicationCategory": "TravelApplication",
+            "sameAs": [
+              "https://play.google.com/store/apps/details?id=com.alpdex.zas.mobile.user",
+              "https://apps.apple.com/br/app/zas-zona-azul-salvador/id6775492987"
+            ],
+            "creator": { "@id": "https://merlli.com/#merlli-mantovani" },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Alpdex",
+              "description": "Desenvolvimento e publicação do aplicativo"
+            }
+          }
+        ]
+      }
+    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link
+      rel="preload"
+      href="/fontes/figtree-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!-- Desativado enquanto a barra de acessibilidade estiver oculta (BARRA_ACESSIBILIDADE_VISIVEL em site-header.ts); reative junto com ela.
+    <script>
+      try {
+        var p = JSON.parse(localStorage.getItem('zas-acessibilidade') || '{}');
+        var r = document.documentElement;
+        if (p.contraste) r.classList.add('alto-contraste');
+        if (p.texto) r.style.setProperty('--tamanho-texto', p.texto + '%');
+      } catch (e) {}
+    </script>
+    -->
+    <!-- Chat de atendimento (fornecedor externo): entra assim que o HTML é lido, sem esperar fotos e fontes, e sem bloquear a página. -->
+    <script>
+      (function () {
+        function carregarChat() {
+          var s = document.createElement('script');
+          s.src = '/chat/widget-channel.js';
+          s.async = true;
+          document.body.appendChild(s);
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', carregarChat);
+        else carregarChat();
+      })();
+    </script>
+  </head>
+  <body>
+    <zas-root></zas-root>
+  </body>
+</html>

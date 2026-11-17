@@ -1,0 +1,68 @@
+# Painel Directus (SQLite) e o proxy público.
+# O site entra neste arquivo no passo do servidor Angular.
+# Ele nasce só na rede `interna`, sem porta no host. O Directus chama
+# http://site:4000/api/revalidar por essa rede. O proxy não encaminha /api/.
+
+name: zas
+
+services:
+  directus:
+    # Tag exata. Não usar latest, nem a linha 12: o 12 limita o núcleo gratuito
+    # a 25 coleções, 3 usuários do painel e 5 fluxos, e ignora regra fina de
+    # permissão sem licença. O rascunho com botão Publicar entrou no 11.16
+    # e está nesta imagem, na edição auto-hospedada, sem licença.
+    image: directus/directus:11.17.4
+    restart: unless-stopped
+    environment:
+      SECRET: ${DIRECTUS_SECRET}
+      KEY: ${DIRECTUS_KEY}
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      PUBLIC_URL: ${PUBLIC_URL}
+      DB_CLIENT: sqlite3
+      DB_FILENAME: /directus/database/data.db
+      WEBSOCKETS_ENABLED: "true"
+      # O site guarda o conteúdo por 5 minutos. Cache aqui entregaria
+      # a versão antiga para a busca que a publicação dispara.
+      CACHE_ENABLED: "false"
+      CORS_ENABLED: "false"
+    volumes:
+      - directus-dados:/directus/database
+      - directus-uploads:/directus/uploads
+    expose:
+      - "8055"
+    networks:
+      - interna
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:8055/server/health').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 40s
+
+  proxy:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      directus:
+        condition: service_healthy
+    ports:
+      - "${PORTA_PUBLICA:-80}:80"
+    volumes:
+      - ./deploy/nginx/painel.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./deploy/nginx/bloquear-api.conf:/etc/nginx/bloquear-api.conf:ro
+    networks:
+      - interna
+
+networks:
+  interna:
+
+volumes:
+  directus-dados:
+  directus-uploads:

@@ -1,0 +1,479 @@
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css';
+
+@import '@spartan-ng/brain/hlm-tailwind-preset.css';
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 900;
+  src: url('/fontes/figtree-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* O ZAS não usa preto. Na interface há um único azul (o do botão principal); tons de azul ficam só nas ilustrações. */
+@theme {
+  --color-zas-azul: #0e2e42;
+  --color-zas-marinho: #0e2e42;
+  --color-zas-noite: #0e2e42;
+  --color-zas-medio: #0e2e42;
+  --color-zas-claro: #0e2e42;
+  --color-zas-bruma: #e3e6e8;
+  --color-zas-fundo: #f5f6f7;
+  --color-zas-amarelo: #f2ec33;
+  --color-zas-amarelo-escuro: #d9c91f;
+  --color-zas-amarelo-fundo: #fff9c9;
+  --color-zas-verde: #13a86f;
+  --color-zas-cinza: #59707f;
+}
+
+:root {
+  color-scheme: light;
+  --tamanho-texto: 100%;
+
+  --font-sans:
+    'Figtree', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+
+  --radius: 1rem;
+  --background: #ffffff;
+  --foreground: #0e2e42;
+  --card: #ffffff;
+  --card-foreground: #0e2e42;
+  --popover: #ffffff;
+  --popover-foreground: #0e2e42;
+  --primary: #0e2e42;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f6f7;
+  --secondary-foreground: #0e2e42;
+  --muted: #f5f6f7;
+  --muted-foreground: #4a5a64;
+  --accent: #f5f6f7;
+  --accent-foreground: #0e2e42;
+  --destructive: #b42318;
+  --border: #e3e6e8;
+  --input: #c9ced2;
+  --ring: #0e2e42;
+}
+
+/* Modo de alto contraste (barra de acessibilidade). */
+:root.alto-contraste {
+  --background: #ffffff;
+  --foreground: #001a33;
+  --card: #ffffff;
+  --card-foreground: #001a33;
+  --primary: #001a33;
+  --secondary: #ffffff;
+  --secondary-foreground: #001a33;
+  --muted: #ffffff;
+  --muted-foreground: #001a33;
+  --accent: #fff9c9;
+  --accent-foreground: #001a33;
+  --border: #001a33;
+  --input: #001a33;
+  --ring: #001a33;
+  --color-zas-fundo: #ffffff;
+  --color-zas-amarelo-fundo: #ffffff;
+  --color-zas-cinza: #001a33;
+}
+
+:root.alto-contraste a:not([data-slot='button']) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+html {
+  font-size: var(--tamanho-texto);
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-zas-amarelo);
+    color: var(--color-zas-marinho);
+  }
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 3px;
+  }
+  .fundo-escuro :focus-visible {
+    outline-color: var(--color-zas-amarelo);
+  }
+  .fundo-escuro .fundo-claro :focus-visible {
+    outline-color: var(--ring);
+  }
+}
+
+@layer components {
+  .marca-texto {
+    background-image: linear-gradient(
+      transparent 58%,
+      var(--color-zas-amarelo) 58%,
+      var(--color-zas-amarelo) 92%,
+      transparent 92%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding-inline: 0.08em;
+  }
+}
+
+/* Chat de atendimento (public/chat/widget-channel.js): cores do ZAS no lugar do azul do fornecedor.
+   O seletor com `body` vence o <style> do widget; `!important` só onde o widget usa estilo inline. */
+body #channel-chat-header,
+body .channel-menu-pill:hover {
+  background: var(--color-zas-marinho);
+}
+body .channel-menu-pill {
+  border-color: var(--color-zas-marinho);
+  color: var(--color-zas-marinho);
+}
+body .channel-menu-pill:hover {
+  color: #fff;
+}
+body #channel-chat-widget {
+  right: 22px;
+  bottom: 22px;
+}
+/* Topo do chat com a identidade do ZAS (elementos inseridos por src/app/layout/chamada-chat.ts). */
+body #channel-chat-header {
+  gap: 8px;
+  padding: 14px 12px 14px 16px;
+}
+body #channel-chat-header h3,
+body #channel-chat-session,
+body #channel-chat-clear {
+  display: none !important;
+}
+.zas-chat-identidade {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  align-items: center;
+  gap: 12px;
+}
+.zas-chat-logo {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--color-zas-marinho);
+  object-fit: cover;
+}
+.zas-chat-identidade > div {
+  min-width: 0;
+}
+.zas-chat-titulo {
+  margin: 0;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zas-chat-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 3px 0 0;
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgb(255 255 255 / 0.85);
+}
+.zas-chat-status::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #3ecf6e;
+}
+body #channel-chat-close {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+body #channel-chat-close:hover {
+  background: rgb(255 255 255 / 0.15) !important;
+}
+body #channel-chat-close .mdi {
+  font-size: 20px !important;
+}
+body #channel-chat-button {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: #eaf4fa url('/ilustracoes/mascote-chat.svg') center / cover no-repeat;
+  border: 3px solid var(--color-zas-amarelo);
+  box-shadow:
+    0 0 0 3px var(--color-zas-marinho),
+    0 16px 32px -10px rgb(14 46 66 / 0.6);
+  transition: transform 0.2s ease;
+}
+body #channel-chat-button:hover {
+  transform: translateY(-2px) scale(1.04);
+}
+body #channel-chat-button img {
+  display: none;
+}
+/* Selo de conversa no canto: deixa claro que o botão é de atendimento. */
+body #channel-chat-button::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: var(--color-zas-marinho)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 6.5A2.5 2.5 0 0 1 7.5 4h9A2.5 2.5 0 0 1 19 6.5v6a2.5 2.5 0 0 1-2.5 2.5H11l-4 3.5V15h0A2 2 0 0 1 5 13Z' fill='%23f2ec33'/%3E%3C/svg%3E")
+    center / 15px no-repeat;
+}
+@media (prefers-reduced-motion: no-preference) {
+  body #channel-chat-button::before {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 3px solid var(--color-zas-amarelo);
+    animation: chat-pulso 2.4s ease-out 1.2s 3 both;
+    pointer-events: none;
+  }
+  .chamada-chat {
+    animation: chat-chamada 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+  }
+}
+@keyframes chat-pulso {
+  0% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  80%,
+  100% {
+    opacity: 0;
+    transform: scale(1.45);
+  }
+}
+@keyframes chat-chamada {
+  from {
+    opacity: 0;
+    transform: translateX(12px) scale(0.92);
+  }
+}
+body.menu-aberto .chamada-chat {
+  display: none;
+}
+body #channel-chat-attach,
+body #channel-chat-send {
+  color: var(--color-zas-marinho) !important;
+}
+body #channel-chat-attach:hover,
+body #channel-chat-send:hover {
+  background-color: var(--color-zas-fundo);
+}
+body .channel-sent {
+  background: var(--color-zas-amarelo-fundo);
+}
+body .channel-quoted {
+  border-left-color: var(--color-zas-marinho);
+}
+body #channel-chat-messages,
+body #channel-chat-input-area {
+  background: var(--color-zas-fundo);
+}
+body.menu-aberto #channel-chat-widget {
+  display: none;
+}
+
+/* Entrada ao rolar: só onde o navegador suporta animação por rolagem; sem suporte, nada muda. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .entra {
+      animation: entra linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
+}
+
+/* Movimentos do hero: só com "reduzir movimento" desligado. O título não anima para não atrasar o LCP. */
+@media (prefers-reduced-motion: no-preference) {
+  .zoom-lento {
+    animation: zoom-lento 26s ease-in-out infinite alternate;
+    transform-origin: 62% 35%;
+  }
+  .flutua {
+    animation: flutua 7s ease-in-out infinite;
+  }
+  .surge {
+    animation: surge 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: var(--atraso, 0s);
+  }
+
+  /* Cartão "Baixe o ZAS" pequeno: flutua, o ícone "pula" com um anel de notificação e um brilho atravessa. */
+  .flutua-leve {
+    animation: flutua-leve 6s ease-in-out 1.4s infinite;
+  }
+  .brilho {
+    position: relative;
+    overflow: hidden;
+  }
+  .brilho::after {
+    content: '';
+    position: absolute;
+    inset: -40% auto -40% -60%;
+    width: 35%;
+    background: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.45), transparent);
+    transform: skewX(-18deg);
+    animation: brilho 6s ease-in-out 2s infinite;
+    pointer-events: none;
+  }
+  .icone-chama {
+    animation: icone-chama 6s cubic-bezier(0.3, 1.4, 0.5, 1) 1.6s infinite;
+  }
+  .icone-chama-anel {
+    animation: icone-chama-anel 6s ease-out 1.6s infinite;
+  }
+
+  /* Faixas de fotos da operação: cada trilho tem duas cópias iguais, então andar 50% fecha o ciclo sem emenda. */
+  .faixa-trilho {
+    animation: faixa var(--duracao, 80s) linear infinite;
+    will-change: transform;
+  }
+  .faixa-reversa {
+    animation-direction: reverse;
+  }
+  .faixas:hover .faixa-trilho,
+  .faixas-pausadas .faixa-trilho {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes faixa {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes flutua-leve {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes brilho {
+  0%,
+  55% {
+    left: -60%;
+  }
+  80%,
+  100% {
+    left: 130%;
+  }
+}
+
+@keyframes icone-chama {
+  0%,
+  12%,
+  100% {
+    transform: none;
+  }
+  4% {
+    transform: translateY(-5px) rotate(-6deg) scale(1.06);
+  }
+  8% {
+    transform: translateY(0) rotate(3deg);
+  }
+}
+
+@keyframes icone-chama-anel {
+  0% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  22%,
+  100% {
+    opacity: 0;
+    transform: scale(1.55);
+  }
+}
+
+@keyframes zoom-lento {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+
+@keyframes flutua {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-1deg);
+  }
+}
+
+@keyframes surge {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes entra {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

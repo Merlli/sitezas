@@ -1,0 +1,30 @@
+{
+  "home": {
+    "titulo": "Zona Azul Salvador: activate it on your phone | ZAS",
+    "descricao": "Check the street sign, choose the matching time, and confirm parking for your vehicle's license plate."
+  },
+  "comoFunciona": {
+    "titulo": "How Salvador's digital Zona Azul works | ZAS",
+    "descricao": "Zona Azul is a rotating parking system. It organizes spaces in regulated areas so more people can park through the day."
+  },
+  "estacioneAgora": {
+    "titulo": "How to activate Zona Azul in Salvador | ZAS",
+    "descricao": "Parking rules can change from one street to the next. Before you activate, check the sign and choose the matching duration in ZAS."
+  },
+  "tarifasERegras": {
+    "titulo": "Zona Azul Salvador: prices and rules | ZAS",
+    "descricao": "The price and the time you can stay depend on the rule shown on the sign where you parked."
+  },
+  "duvidas": {
+    "titulo": "Questions about Zona Azul in Salvador | ZAS",
+    "descricao": "Questions about Salvador's digital Zona Azul?"
+  },
+  "suporte": {
+    "titulo": "Support and contact | ZAS Zona Azul Salvador",
+    "descricao": "Talk to support: contato@zaszonaazul.com.br"
+  },
+  "naoEncontrada": {
+    "titulo": "Page not found | ZAS",
+    "descricao": "Page not found."
+  }
+}

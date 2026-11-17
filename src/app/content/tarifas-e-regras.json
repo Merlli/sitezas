@@ -1,0 +1,15 @@
+{
+  "titulo": "Tarifas e regras da Zona Azul Salvador",
+  "introducao": "A tarifa e o tempo de permanência dependem da regra indicada na sinalização do local.",
+  "tabela": {
+    "colunas": { "regra": "Regra", "duracao": "Duração", "valor": "Valor" },
+    "linhas": [
+      { "regra": "Curta duração", "duracao": "2 horas", "valor": "R$ 3,00" },
+      { "regra": "Média duração", "duracao": "6 horas", "valor": "R$ 6,00" },
+      { "regra": "Longa duração", "duracao": "12 horas", "valor": "R$ 9,00" },
+      { "regra": "Evento de pequeno porte", "duracao": "Variável", "valor": "R$ 10,00" },
+      { "regra": "Evento de grande porte", "duracao": "Variável", "valor": "R$ 20,00" }
+    ]
+  },
+  "atencao": "**Atenção:** cada veículo pode ter só uma Cartela Azul Digital ativa por vez, e cada celular pode manter no máximo dois veículos com ativação ao mesmo tempo. O tempo de permanência muda de um local para outro. Por isso, antes de ativar, olhe a placa de sinalização da vaga: ela mostra se a ativação é obrigatória e qual tempo e tarifa escolher."
+}

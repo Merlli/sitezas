@@ -1,0 +1,103 @@
+{
+  "titulo": "Como ativar sua Zona Azul pelo ZAS",
+  "antesDeComecar": {
+    "titulo": "Antes de começar:",
+    "itens": [
+      "Estacione somente em local permitido.",
+      "Confira a sinalização.",
+      "Identifique a regra de duração.",
+      "Tenha a placa correta do veículo."
+    ]
+  },
+  "passos": [
+    {
+      "rotulo": "Passo 1",
+      "titulo": "Crie sua conta",
+      "trechos": [
+        { "paragrafo": "No primeiro acesso ao aplicativo ZAS, crie sua conta e cadastre a placa do veículo." },
+        { "paragrafo": "Para criar sua conta será necessário informar um e-mail, CPF ou CNPJ, placa do veículo e criar uma senha." }
+      ],
+      "lojas": true
+    },
+    {
+      "rotulo": "Passo 2",
+      "titulo": "Escolha o veículo",
+      "trechos": [
+        { "paragrafo": "Selecione a placa cadastrada correspondente ao veículo estacionado." },
+        {
+          "paragrafo": "Antes de confirmar, confira todos os caracteres. Uma ativação feita para outra placa não regulariza o estacionamento do veículo que está na vaga."
+        }
+      ]
+    },
+    {
+      "rotulo": "Passo 3",
+      "titulo": "Escolha o tempo",
+      "trechos": [
+        {
+          "paragrafo": "Selecione o tempo correspondente à sinalização do local. A duração e a modalidade precisam ser compatíveis com a vaga."
+        }
+      ]
+    },
+    {
+      "rotulo": "Passo 4",
+      "titulo": "Faça o pagamento",
+      "trechos": [
+        {
+          "paragrafo": "A ativação usa o saldo do aplicativo. Se o saldo não for suficiente, compre créditos antes de concluir."
+        },
+        { "paragrafo": "Para comprar créditos, o ZAS permite utilizar PIX, cartão de crédito e boleto." }
+      ]
+    },
+    {
+      "rotulo": "Passo 5",
+      "titulo": "Confira o resumo",
+      "trechos": [
+        {
+          "paragrafo": "Antes de concluir, revise placa, local, regra, duração, valor e forma de pagamento."
+        }
+      ]
+    },
+    {
+      "rotulo": "Passo 6",
+      "titulo": "Conclua e confirme",
+      "trechos": [
+        {
+          "paragrafo": "Após a revisão conclua a ativação e verifique se o aplicativo apresenta:"
+        },
+        {
+          "lista": [
+            "confirmação da ativação",
+            "horário de início",
+            "horário de término",
+            "placa utilizada",
+            "número de autenticação"
+          ]
+        }
+      ]
+    },
+    {
+      "rotulo": "Passo 7",
+      "titulo": "Acompanhe o vencimento",
+      "trechos": [
+        {
+          "paragrafo": "Use o histórico ou os alertas do aplicativo, caso disponíveis, para acompanhar o término."
+        },
+        {
+          "paragrafo": "O alerta é um lembrete. Ele não substitui a responsabilidade de respeitar a sinalização, o tempo permitido e a retirada do veículo."
+        }
+      ]
+    }
+  ],
+  "semInternet": {
+    "id": "sem-internet",
+    "titulo": "Sem Internet",
+    "trechos": [
+      {
+        "paragrafo": "**Sem internet no celular?** Você também pode ativar a Zona Azul por SMS. Envie a mensagem **salvador vaga** para o número **29092** e aguarde a resposta confirmando a ativação."
+      },
+      {
+        "paragrafo": "Para usar o SMS, você precisa ter conta no ZAS com saldo pré-pago disponível."
+      }
+    ]
+  }
+}

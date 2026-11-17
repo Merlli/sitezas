@@ -1,0 +1,81 @@
+{
+  "titulo": "Como funciona a Zona Azul Digital em Salvador",
+  "introducao": [
+    "A Zona Azul é um sistema de estacionamento rotativo. Ela organiza o uso de vagas em áreas regulamentadas para que mais pessoas possam estacionar ao longo do dia.",
+    "Quando você estacionar em uma vaga sinalizada, confira a regra indicada no local e faça a ativação pelo ZAS ou por outro meio oficialmente disponível."
+  ],
+  "destaque": {
+    "titulo": "Comprar créditos para o aplicativo não é a mesma coisa que ativação",
+    "paragrafos": [
+      "Comprar crédito coloca saldo disponível para uso. A ativação é o registro do estacionamento para uma placa, uma regra e um período determinados.",
+      "Ter saldo no aplicativo não significa, por si só, que o veículo está regularizado. Depois de estacionar, conclua a ativação e confira a confirmação."
+    ]
+  },
+  "secoes": [
+    {
+      "id": "fiscalizacao",
+      "titulo": "Fiscalização",
+      "trechos": [
+        {
+          "paragrafo": "A fiscalização ocorre através da placa do veículo. Não é necessário deixar um comprovante no painel quando a ativação digital estiver registrada corretamente."
+        },
+        { "paragrafo": "Confira sempre:" },
+        {
+          "lista": [
+            "placa",
+            "regra",
+            "horário de início",
+            "horário de término",
+            "número de autenticação"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numero-de-autenticacao",
+      "titulo": "Número de autenticação",
+      "trechos": [
+        {
+          "paragrafo": "Toda ativação de estacionamento recebe um número de autenticação. Esse número fica disponível no histórico da operação no aplicativo e é o comprovante do seu estacionamento na Transalvador."
+        }
+      ]
+    },
+    {
+      "id": "tolerancia-de-15-minutos",
+      "titulo": "Tolerância de 15 minutos",
+      "trechos": [
+        {
+          "paragrafo": "Utilizando o ZAS, se o usuário retirar o veículo dentro dos 15 minutos iniciais da ativação, o crédito poderá ser devolvido e utilizado futuramente."
+        }
+      ]
+    },
+    {
+      "id": "vagas-especiais",
+      "titulo": "Idosos e Pessoas com deficiência ou mobilidade reduzida",
+      "trechos": [
+        {
+          "paragrafo": "Além de ativar o estacionamento, é obrigatório manter no painel do veículo o cartão de credenciamento emitido pela Transalvador."
+        },
+        { "paragrafo": "Antes de estacionar em uma vaga especial:" },
+        {
+          "lista": [
+            "verifique se você possui a credencial exigida",
+            "confira se a credencial está válida",
+            "deixe-a visível no painel",
+            "faça a ativação correspondente, quando exigida",
+            "respeite a sinalização específica"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operadores-de-zona-azul",
+      "titulo": "Operadores de Zona Azul",
+      "trechos": [
+        {
+          "paragrafo": "Também é possível ativar o estacionamento com os operadores de Zona Azul ligados ao Sindicato dos Guardadores e Lavadores de Veículos Automotores do Estado da Bahia (Sindguarda). Eles ficam devidamente fardados nos locais de estacionamento. Com os operadores, o cidadão pode adquirir os créditos usando cartões de crédito e débito ou dinheiro em espécie."
+        }
+      ]
+    }
+  ]
+}

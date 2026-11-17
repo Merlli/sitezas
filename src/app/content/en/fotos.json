@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "modo": "imagem",
+    "fotos": [
+      {
+        "src": "/fotos/hero-pelourinho-2048.webp",
+        "alt": "A ZAS attendant in a yellow uniform, smiling and holding a ZAS leaflet in Pelourinho, Salvador.",
+        "largura": 2048,
+        "altura": 768,
+        "posicao": "55% 40%",
+        "posicaoCelular": "58% 30%",
+        "versoes": {
+          "1024": "/fotos/hero-pelourinho-1024.webp",
+          "1536": "/fotos/hero-pelourinho-1536.webp",
+          "2048": "/fotos/hero-pelourinho-2048.webp"
+        }
+      }
+    ]
+  },
+  "operacao": {
+    "modo": "imagem",
+    "fotos": [
+      {
+        "src": "/fotos/operacao-equipe-1024.webp",
+        "alt": "The ZAS team gathered in a room, with attendants in yellow uniforms and Transalvador agents.",
+        "largura": 1024,
+        "altura": 768,
+        "versoes": {
+          "533": "/fotos/operacao-equipe-533.webp",
+          "1024": "/fotos/operacao-equipe-1024.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-elevador-lacerda-883.webp",
+        "alt": "A ZAS attendant using a wheelchair, smiling on the sidewalk near the Elevador Lacerda.",
+        "largura": 883,
+        "altura": 1024,
+        "versoes": {
+          "345": "/fotos/operacao-elevador-lacerda-345.webp",
+          "883": "/fotos/operacao-elevador-lacerda-883.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-comprovante-1024.webp",
+        "alt": "A ZAS attendant smiling and holding a parking receipt.",
+        "largura": 1024,
+        "altura": 1024,
+        "versoes": {
+          "400": "/fotos/operacao-comprovante-400.webp",
+          "1024": "/fotos/operacao-comprovante-1024.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-orla-750.webp",
+        "alt": "A ZAS attendant checking parked cars along the waterfront, between coconut palms.",
+        "largura": 750,
+        "altura": 1024,
+        "versoes": {
+          "293": "/fotos/operacao-orla-293.webp",
+          "750": "/fotos/operacao-orla-750.webp"
+        }
+      },
+      {
+        "src": "/fotos/operacao-pelourinho-1024.webp",
+        "alt": "A ZAS attendant smiling and holding a leaflet in Pelourinho.",
+        "largura": 1024,
+        "altura": 576,
+        "versoes": {
+          "711": "/fotos/operacao-pelourinho-711.webp",
+          "1024": "/fotos/operacao-pelourinho-1024.webp"
+        }
+      }
+    ]
+  }
+}

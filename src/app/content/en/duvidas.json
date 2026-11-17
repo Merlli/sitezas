@@ -1,0 +1,371 @@
+{
+  "titulo": "Questions about Salvador's digital Zona Azul?",
+  "cta": "Open the FAQ",
+  "blocos": [
+    {
+      "id": "antes-de-estacionar",
+      "titulo": "Before you park",
+      "perguntas": [
+        {
+          "id": "pergunta-1",
+          "pergunta": "How do I know a space is Zona Azul?",
+          "resposta": [
+            {
+              "paragrafo": "Check the vertical and painted signs. The sign should show the regulation, the rule, and, when it applies, the period or type of stay."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-2",
+          "pergunta": "Can I park in any space and activate in the app?",
+          "resposta": [
+            {
+              "paragrafo": "No. The app covers parking in an authorized, signed area. It does not allow parking where it is forbidden, reserved, or incompatible with the rule."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-3",
+          "pergunta": "Can I activate after I park?",
+          "resposta": [
+            {
+              "paragrafo": "The operating guidance is to activate as soon as you park, before you leave the vehicle. The exact deadline and any conditions should be confirmed in the current regulation."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-4",
+          "pergunta": "Do I need to know the rule before I open the app?",
+          "resposta": [
+            {
+              "paragrafo": "You need to check the signs. The app can show options, but the information at the spot is what you use to choose the right type of stay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ativacao",
+      "titulo": "Activation",
+      "perguntas": [
+        {
+          "id": "pergunta-5",
+          "pergunta": "Which license plate should I enter?",
+          "resposta": [
+            {
+              "paragrafo": "Enter the plate of the vehicle that is parked. Review the characters before you finish."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-6",
+          "pergunta": "Can I register more than one vehicle?",
+          "resposta": [
+            {
+              "paragrafo": "You can register several plates, with a limit of two vehicles activated at the same time."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-7",
+          "pergunta": "Can I use the same account for more than one vehicle?",
+          "resposta": [
+            {
+              "paragrafo": "ZAS lets you register several plates. The number of simultaneous activations must stay within the current limit of 2 vehicles per phone."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-8",
+          "pergunta": "How do I confirm the activation worked?",
+          "resposta": [
+            {
+              "paragrafo": "Check that the app showed a confirmation with the plate, the rule, the period, and, when available, the authentication number."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-9",
+          "pergunta": "I activated the wrong vehicle. What now?",
+          "resposta": [
+            {
+              "paragrafo": "If you notice the mistake within the grace period (15 minutes), cancel the activation right away and do it again for the correct vehicle. After 15 minutes, cancellation is not available. Activate again for the correct plate."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-10",
+          "pergunta": "I chose the wrong duration. Can I change it?",
+          "resposta": [
+            {
+              "paragrafo": "Do not change the activation on your own without checking the rules. See whether cancellation, a new activation, or support is available for your case."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tempo-e-vencimento",
+      "titulo": "Time and expiry",
+      "perguntas": [
+        {
+          "id": "pergunta-11",
+          "pergunta": "How do I know when my activation ends?",
+          "resposta": [
+            {
+              "paragrafo": "Check the activation screen or the app history. ZAS offers alerts — set them up."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-12",
+          "pergunta": "My activation is about to end. Can I renew it?",
+          "resposta": [
+            {
+              "paragrafo": "Whether you can renew, and when, depends on the local rule. Do not assume that renewing means you can stay in the same space without a limit."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-13",
+          "pergunta": "What happens if I stay past the time?",
+          "resposta": [
+            {
+              "paragrafo": "The vehicle can be out of compliance and subject to the measures in the current law and regulation."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-14",
+          "pergunta": "Can I use the remaining balance in another space?",
+          "resposta": [
+            {
+              "paragrafo": "You can reuse the balance in another compatible space, without necessarily starting a new activation. Compatibility depends on the credit rule and the instructions in the app."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pagamento",
+      "titulo": "Payment",
+      "perguntas": [
+        {
+          "id": "pergunta-15",
+          "pergunta": "Which payment methods does ZAS accept?",
+          "resposta": [
+            {
+              "paragrafo": "To buy credit, ZAS accepts PIX, credit card, and boleto."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-16",
+          "pergunta": "I paid, but the balance did not appear. What should I do?",
+          "resposta": [
+            {
+              "lista": [
+                "Do not pay again right away.",
+                "Check that the transaction shows as approved.",
+                "Refresh the app.",
+                "Check the statement or history.",
+                "Keep the receipt.",
+                "Contact support with the transaction id."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pergunta-17",
+          "pergunta": "The payment was approved, but the activation did not appear.",
+          "resposta": [
+            {
+              "paragrafo": "You may have bought credit. On the home screen you can see your balance, and the \"Start parking\" button uses that balance to cover the space. If you are still unsure, contact support right away and send the plate, time, amount, and receipt."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-18",
+          "pergunta": "Can I buy credit before I park?",
+          "resposta": [
+            {
+              "paragrafo": "Yes, you can buy credit in advance. Activation should happen only when the vehicle is parked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tolerancia-e-cancelamento",
+      "titulo": "Grace period and cancellation",
+      "perguntas": [
+        {
+          "id": "pergunta-19",
+          "pergunta": "I left within 15 minutes. Do I get the credit back?",
+          "resposta": [
+            {
+              "paragrafo": "Yes. In ZAS, the first 15 minutes after activation are a grace period: if you move the car in that window, cancel the activation and the credit comes back to you. That cancellation can only be done in the app."
+            },
+            {
+              "paragrafo": "**Watch out:** after you cancel, if you park again on the same street within the next 2 hours, you no longer get the 15-minute grace period."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-20",
+          "pergunta": "Can I cancel after 15 minutes?",
+          "resposta": [
+            {
+              "paragrafo": "No. Cancellation is only allowed within 15 minutes of activation."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-21",
+          "pergunta": "After I cancel, can I park in the same place?",
+          "resposta": [
+            {
+              "paragrafo": "You can, but on the same street two conditions apply: you can activate a new credit only 1 hour after the cancellation, and for the 2 hours after cancellation you do not get the 15-minute grace period. On another street, you do not have to wait."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscalizacao-e-notificacao",
+      "titulo": "Enforcement and notices",
+      "perguntas": [
+        {
+          "id": "pergunta-22",
+          "pergunta": "Do I need to leave a receipt on the dashboard?",
+          "resposta": [
+            {
+              "paragrafo": "No, when the digital activation is registered correctly. Enforcement uses the license plate."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-23",
+          "pergunta": "I got a notice even though I activated. Why?",
+          "resposta": [
+            { "paragrafo": "Check:" },
+            {
+              "lista": [
+                "activated plate",
+                "activation time",
+                "inspection time",
+                "time you chose",
+                "place",
+                "confirmation",
+                "authentication number",
+                "payment status"
+              ]
+            },
+            {
+              "paragrafo": "If the details are correct, contact app support. If the issue is a traffic citation or measure, the right channel may be Transalvador."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-24",
+          "pergunta": "Can ZAS cancel a fine?",
+          "resposta": [
+            {
+              "paragrafo": "No. That depends on the agency and the official procedure, which you can check with Transalvador."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conta-e-cadastro",
+      "titulo": "Account and registration",
+      "perguntas": [
+        {
+          "id": "pergunta-25",
+          "pergunta": "What do I need to create an account?",
+          "resposta": [
+            {
+              "paragrafo": "To create an account you need an email, a CPF or CNPJ, the vehicle's license plate, and a password."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-26",
+          "pergunta": "I cannot sign in. What should I do?",
+          "resposta": [
+            {
+              "paragrafo": "Use the account recovery option. If it does not work, contact support with the email, phone, or document used at registration. Do not send your password."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-27",
+          "pergunta": "Can I change my details?",
+          "resposta": [
+            {
+              "paragrafo": "Yes. Open the app menu, go to REGISTRATION, and choose what you want to change. Remember to save."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-28",
+          "pergunta": "I cannot register my vehicle.",
+          "resposta": [
+            { "paragrafo": "Check:" },
+            {
+              "lista": [
+                "plate format",
+                "whether it was registered before",
+                "your connection",
+                "messages shown by the app"
+              ]
+            },
+            {
+              "paragrafo": "If the error continues, send support a screenshot or the exact message and the operation details, without sharing anything unnecessary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vagas-especiais",
+      "titulo": "Reserved spaces",
+      "perguntas": [
+        {
+          "id": "pergunta-29",
+          "pergunta": "What do I need to use a reserved space?",
+          "resposta": [
+            {
+              "paragrafo": "Besides activating in ZAS, you must keep the credential card issued by Transalvador visible on the dashboard."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-30",
+          "pergunta": "Does activation replace the credential?",
+          "resposta": [
+            {
+              "paragrafo": "No. If you activate parking in ZAS but the credential is not visible on the dashboard, using a reserved space can still be treated as irregular parking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grandes-frotas",
+      "titulo": "Large fleets",
+      "perguntas": [
+        {
+          "id": "pergunta-31",
+          "pergunta": "How do I register a fleet?",
+          "resposta": [
+            {
+              "paragrafo": "Fleet operators should fill in the Zona Azul Digital large-fleet request at https://transapp.salvador.ba.gov.br/rza"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

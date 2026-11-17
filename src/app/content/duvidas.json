@@ -1,0 +1,371 @@
+{
+  "titulo": "Dúvidas sobre a Zona Azul Digital de Salvador?",
+  "cta": "Acesse nossa FAQ",
+  "blocos": [
+    {
+      "id": "antes-de-estacionar",
+      "titulo": "Antes de estacionar",
+      "perguntas": [
+        {
+          "id": "pergunta-1",
+          "pergunta": "Como sei se uma vaga é Zona Azul?",
+          "resposta": [
+            {
+              "paragrafo": "Confira a sinalização vertical e horizontal do local. A placa deve indicar a regulamentação, a regra e, quando aplicável, o período ou modalidade."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-2",
+          "pergunta": "Posso estacionar em qualquer vaga e ativar pelo aplicativo?",
+          "resposta": [
+            {
+              "paragrafo": "Não. O aplicativo regulariza o estacionamento em área autorizada e sinalizada. Ele não permite estacionar em local proibido, reservado ou incompatível com a regra."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-3",
+          "pergunta": "Posso ativar depois de estacionar?",
+          "resposta": [
+            {
+              "paragrafo": "A orientação operacional é ativar assim que estacionar, antes de deixar o veículo. O prazo exato e eventuais condições devem ser confirmados na regulamentação vigente."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-4",
+          "pergunta": "Preciso conhecer a regra antes de abrir o aplicativo?",
+          "resposta": [
+            {
+              "paragrafo": "Você precisa conferir a sinalização. O aplicativo pode apresentar opções, mas a informação do local é essencial para escolher a modalidade correta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ativacao",
+      "titulo": "Ativação",
+      "perguntas": [
+        {
+          "id": "pergunta-5",
+          "pergunta": "Qual placa devo informar?",
+          "resposta": [
+            {
+              "paragrafo": "Informe a placa do veículo que está estacionado. Revise os caracteres antes de concluir."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-6",
+          "pergunta": "Posso cadastrar mais de um veículo?",
+          "resposta": [
+            {
+              "paragrafo": "É possível cadastrar várias placas, com limite de até dois veículos ativados simultaneamente."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-7",
+          "pergunta": "Posso usar a mesma conta em mais de um veículo?",
+          "resposta": [
+            {
+              "paragrafo": "O ZAS permite o cadastro de várias placas. A quantidade de ativações simultâneas deve respeitar o limite vigente que é de 2 veículos por aparelho."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-8",
+          "pergunta": "Como confirmo que a ativação deu certo?",
+          "resposta": [
+            {
+              "paragrafo": "Confira se o aplicativo exibiu uma confirmação com a placa, a regra, o período e, quando disponível, o número de autenticação."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-9",
+          "pergunta": "Ativei para o veículo errado. E agora?",
+          "resposta": [
+            {
+              "paragrafo": "Se perceber o erro dentro do período de tolerância (15 minutos) cancele a ativação imediatamente e refaça para o veículo correto. Caso já tenha passado o período de 15 minutos o cancelamento não será possível. Recomenda-se nova ativação para a placa correta."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-10",
+          "pergunta": "Escolhi a duração errada. Posso trocar?",
+          "resposta": [
+            {
+              "paragrafo": "Não altere a ativação por conta própria sem conferir as regras. Verifique se existe cancelamento, nova ativação ou suporte específico para o caso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tempo-e-vencimento",
+      "titulo": "Tempo e vencimento",
+      "perguntas": [
+        {
+          "id": "pergunta-11",
+          "pergunta": "Como sei quando minha ativação termina?",
+          "resposta": [
+            {
+              "paragrafo": "Consulte a tela de ativação ou o histórico do aplicativo. O ZAS oferece alertas, configure-os."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-12",
+          "pergunta": "Minha ativação está acabando. Posso renovar?",
+          "resposta": [
+            {
+              "paragrafo": "A possibilidade e o momento da renovação dependem da regra local. Não presuma que renovar significa permanecer na mesma vaga sem limite."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-13",
+          "pergunta": "O que acontece se eu ultrapassar o tempo?",
+          "resposta": [
+            {
+              "paragrafo": "O veículo pode ficar irregular e sujeito às medidas previstas na legislação e na regulamentação vigente."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-14",
+          "pergunta": "Posso usar o saldo restante em outra vaga?",
+          "resposta": [
+            {
+              "paragrafo": "É possível reutilizar o saldo em outra vaga compatível, sem necessariamente fazer nova ativação. A compatibilidade depende da regra do crédito e das instruções do aplicativo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pagamento",
+      "titulo": "Pagamento",
+      "perguntas": [
+        {
+          "id": "pergunta-15",
+          "pergunta": "Quais formas de pagamento o ZAS aceita?",
+          "resposta": [
+            {
+              "paragrafo": "Para comprar créditos, o ZAS permite utilizar PIX, cartão de crédito e boleto."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-16",
+          "pergunta": "Paguei, mas o saldo não apareceu. O que faço?",
+          "resposta": [
+            {
+              "lista": [
+                "Não repita o pagamento imediatamente.",
+                "Confira se a transação aparece como aprovada.",
+                "Atualize o aplicativo.",
+                "Verifique o extrato ou histórico.",
+                "Guarde o comprovante.",
+                "Procure o suporte com o identificador da transação."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pergunta-17",
+          "pergunta": "O pagamento foi aprovado, mas a ativação não apareceu.",
+          "resposta": [
+            {
+              "paragrafo": "Possivelmente você fez a compra de créditos. Na tela inicial você pode consultar seu saldo e clicando no botão \"Ativar Estacionamento\" você faz o uso do saldo para regularizar o uso da vaga. Se ainda estiver com dúvidas, acesse o suporte imediatamente e informe placa, horário, valor e comprovante."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-18",
+          "pergunta": "Posso comprar créditos antes de estacionar?",
+          "resposta": [
+            {
+              "paragrafo": "Sim, a compra antecipada de créditos é possível. A ativação deve ser feita somente quando o veículo estiver estacionado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tolerancia-e-cancelamento",
+      "titulo": "Tolerância e cancelamento",
+      "perguntas": [
+        {
+          "id": "pergunta-19",
+          "pergunta": "Saí antes de 15 minutos. Tenho direito à devolução?",
+          "resposta": [
+            {
+              "paragrafo": "Sim. No ZAS, os primeiros 15 minutos depois da ativação são de tolerância: se você tirar o carro da vaga nesse intervalo, cancele a ativação e os créditos voltam para você. Esse cancelamento só pode ser feito pelo aplicativo."
+            },
+            {
+              "paragrafo": "**Fique atento:** depois de cancelar, se você estacionar de novo no mesmo logradouro nas 2 horas seguintes, não terá mais os 15 minutos de tolerância."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-20",
+          "pergunta": "Posso cancelar depois de 15 minutos?",
+          "resposta": [
+            {
+              "paragrafo": "Não, o cancelamento só é permitido em até 15 minutos a partir da ativação."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-21",
+          "pergunta": "Depois de cancelar, posso estacionar no mesmo local?",
+          "resposta": [
+            {
+              "paragrafo": "Pode, mas no mesmo logradouro há duas condições: você só consegue ativar um novo crédito 1 hora depois do cancelamento, e nas 2 horas seguintes ao cancelamento fica sem a tolerância de 15 minutos. Em outro logradouro, não é preciso esperar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscalizacao-e-notificacao",
+      "titulo": "Fiscalização e notificação",
+      "perguntas": [
+        {
+          "id": "pergunta-22",
+          "pergunta": "Preciso deixar um comprovante no painel?",
+          "resposta": [
+            {
+              "paragrafo": "Não, quando a ativação digital estiver registrada corretamente. A fiscalização ocorre pela placa."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-23",
+          "pergunta": "Recebi uma notificação mesmo tendo ativado. Por quê?",
+          "resposta": [
+            { "paragrafo": "Confira:" },
+            {
+              "lista": [
+                "placa ativada",
+                "horário da ativação",
+                "horário da abordagem",
+                "tempo escolhido",
+                "local",
+                "confirmação",
+                "número de autenticação",
+                "status do pagamento"
+              ]
+            },
+            {
+              "paragrafo": "Se os dados estiverem corretos, procure o suporte do aplicativo. Caso a questão seja uma autuação ou medida de trânsito, o canal competente pode ser a Transalvador."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-24",
+          "pergunta": "O ZAS pode cancelar uma multa?",
+          "resposta": [
+            {
+              "paragrafo": "Não. Essas providências dependem do órgão e do procedimento oficial que pode ser consultado na Transalvador."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conta-e-cadastro",
+      "titulo": "Conta e cadastro",
+      "perguntas": [
+        {
+          "id": "pergunta-25",
+          "pergunta": "O que preciso para criar uma conta?",
+          "resposta": [
+            {
+              "paragrafo": "Para criar sua conta será necessário informar um e-mail, CPF ou CNPJ, placa do veículo e criar uma senha."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-26",
+          "pergunta": "Não consigo acessar minha conta. O que faço?",
+          "resposta": [
+            {
+              "paragrafo": "Use a recuperação de acesso disponível. Se não funcionar, procure o suporte com o e-mail, telefone ou documento usado no cadastro, sem enviar senha."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-27",
+          "pergunta": "Posso alterar meus dados?",
+          "resposta": [
+            {
+              "paragrafo": "Sim, acesso o menu do aplicativo e na sessão CADASTROS, selecione as opções que deseja alterar. Lembre-se de salvar as alterações."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-28",
+          "pergunta": "Não consigo cadastrar meu veículo.",
+          "resposta": [
+            { "paragrafo": "Confira:" },
+            {
+              "lista": [
+                "formato da placa",
+                "existência de cadastro anterior",
+                "conexão",
+                "mensagens exibidas pelo aplicativo"
+              ]
+            },
+            {
+              "paragrafo": "Se o erro persistir, tire um print ou envie ao suporte a mensagem exata e os dados da operação, sem compartilhar informações desnecessárias."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vagas-especiais",
+      "titulo": "Vagas especiais",
+      "perguntas": [
+        {
+          "id": "pergunta-29",
+          "pergunta": "O que preciso para usar uma vaga especial?",
+          "resposta": [
+            {
+              "paragrafo": "Além da ativação pelo ZAS, é necessário manter visível no painel o cartão de credenciamento emitido pela Transalvador."
+            }
+          ]
+        },
+        {
+          "id": "pergunta-30",
+          "pergunta": "A ativação substitui a credencial?",
+          "resposta": [
+            {
+              "paragrafo": "Não. Se o usuário ativar o estacionamento pelo ZAS, mas não estiver com a credencial visível no painel do veículo, poderá ser considerado estacionamento irregular ao ocupar uma vaga especial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grandes-frotas",
+      "titulo": "Grandes frotas",
+      "perguntas": [
+        {
+          "id": "pergunta-31",
+          "pergunta": "Como faço para cadastrar uma frota?",
+          "resposta": [
+            {
+              "paragrafo": "Frotistas devem preencher o Requerimento de Grandes Frotas do Zona Azul Digital disponível no link: https://transapp.salvador.ba.gov.br/rza"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

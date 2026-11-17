@@ -1,0 +1,103 @@
+{
+  "titulo": "How to activate your Zona Azul with ZAS",
+  "antesDeComecar": {
+    "titulo": "Before you start:",
+    "itens": [
+      "Park only where it is allowed.",
+      "Check the signs.",
+      "Identify the time rule.",
+      "Have the vehicle's correct license plate."
+    ]
+  },
+  "passos": [
+    {
+      "rotulo": "Step 1",
+      "titulo": "Create your account",
+      "trechos": [
+        { "paragrafo": "The first time you open the ZAS app, create your account and register the vehicle's license plate." },
+        { "paragrafo": "To create an account you need an email, a CPF or CNPJ, the vehicle's license plate, and a password." }
+      ],
+      "lojas": true
+    },
+    {
+      "rotulo": "Step 2",
+      "titulo": "Choose the vehicle",
+      "trechos": [
+        { "paragrafo": "Select the registered plate of the vehicle that is parked." },
+        {
+          "paragrafo": "Before you confirm, check every character. An activation for another plate does not cover the vehicle in the space."
+        }
+      ]
+    },
+    {
+      "rotulo": "Step 3",
+      "titulo": "Choose the time",
+      "trechos": [
+        {
+          "paragrafo": "Select the time that matches the sign at the spot. The duration and the type of stay need to fit the space."
+        }
+      ]
+    },
+    {
+      "rotulo": "Step 4",
+      "titulo": "Pay",
+      "trechos": [
+        {
+          "paragrafo": "Activation uses the app balance. If the balance is not enough, buy credit before you finish."
+        },
+        { "paragrafo": "To buy credit, ZAS accepts PIX, credit card, and boleto." }
+      ]
+    },
+    {
+      "rotulo": "Step 5",
+      "titulo": "Review the summary",
+      "trechos": [
+        {
+          "paragrafo": "Before you finish, review the plate, place, rule, duration, price, and payment method."
+        }
+      ]
+    },
+    {
+      "rotulo": "Step 6",
+      "titulo": "Finish and confirm",
+      "trechos": [
+        {
+          "paragrafo": "After the review, finish the activation and check that the app shows:"
+        },
+        {
+          "lista": [
+            "activation confirmed",
+            "start time",
+            "end time",
+            "license plate used",
+            "authentication number"
+          ]
+        }
+      ]
+    },
+    {
+      "rotulo": "Step 7",
+      "titulo": "Watch the end time",
+      "trechos": [
+        {
+          "paragrafo": "Use the app history or alerts, when they are available, to follow the end time."
+        },
+        {
+          "paragrafo": "An alert is a reminder. It does not replace your responsibility to follow the signs, the allowed time, and to move the vehicle."
+        }
+      ]
+    }
+  ],
+  "semInternet": {
+    "id": "sem-internet",
+    "titulo": "No internet",
+    "trechos": [
+      {
+        "paragrafo": "**No internet on your phone?** You can also activate Zona Azul by SMS. Send the message **salvador vaga** to **29092** and wait for the reply confirming the activation."
+      },
+      {
+        "paragrafo": "To use SMS, you need a ZAS account with prepaid balance available."
+      }
+    ]
+  }
+}

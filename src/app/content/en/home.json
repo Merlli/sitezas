@@ -1,0 +1,68 @@
+{
+  "principal": {
+    "titulo": "Parked in Salvador? Activate your Zona Azul with ZAS.",
+    "subtitulo": "Check the street sign, choose the matching time, and confirm parking for your vehicle's license plate.",
+    "ctaPrincipal": "Start parking",
+    "ctaSecundario": "Create an account"
+  },
+  "oQueE": {
+    "titulo": "ZAS: the official Zona Azul app for Salvador",
+    "paragrafos": [
+      "Since October 2018, Salvador's Zona Azul has been digital: Transalvador replaced paper booklets with the Cartela Azul Digital. With ZAS, you use that balance straight from your phone."
+    ],
+    "chamadaLojas": "Get ZAS:"
+  },
+  "voceEstacionou": {
+    "titulo": "You parked — here is what to do now",
+    "passos": [
+      "Check the sign for the space.",
+      "Choose the vehicle's license plate.",
+      "Select the time shown at the spot.",
+      "Activate and check the confirmation."
+    ],
+    "acao": { "rotulo": "See the full step by step", "rota": "/estacione-agora" },
+    "apoio": "The parking rule can change from one place to another. Before you activate, check the sign and choose the matching duration in ZAS."
+  },
+  "tarifas": {
+    "titulo": "Rates",
+    "introducao": "Choose the period shown on the sign.",
+    "tabela": {
+      "colunas": { "regra": "Rule", "duracao": "Duration", "valor": "Price" },
+      "linhas": [
+        { "regra": "Short stay", "duracao": "2 hours", "valor": "R$ 3,00" },
+        { "regra": "Medium stay", "duracao": "6 hours", "valor": "R$ 6,00" },
+        { "regra": "Long stay", "duracao": "12 hours", "valor": "R$ 9,00" },
+        { "regra": "Small event", "duracao": "As set for the event", "valor": "R$ 10,00" },
+        { "regra": "Large event", "duracao": "As set for the event", "valor": "R$ 20,00" }
+      ]
+    },
+    "acao": { "rotulo": "More about rates and rules", "rota": "/tarifas-e-regras" }
+  },
+  "fiscalizacao": {
+    "titulo": "Enforcement",
+    "texto": "Enforcement looks up the vehicle's license plate in the system. Always check that parking was confirmed for the right plate, and keep an eye on the end time."
+  },
+  "institucional": {
+    "titulo": "ZAS is an accredited app for Salvador's digital Zona Azul",
+    "texto": "The app lets you buy and activate rotating parking credit, following the rules set for the city and shown on the local signs."
+  },
+  "operacao": {
+    "rotulo": "On the streets of Salvador",
+    "titulo": "The people who make ZAS happen",
+    "destaque": "Salvador, looked after by people who call the city home.",
+    "pontos": [
+      {
+        "titulo": "Salvador's union",
+        "texto": "Sindguarda is the union of the attendants who work in the city's Zona Azul."
+      },
+      {
+        "titulo": "Income that stays here",
+        "texto": "With ZAS, the parking fee stays in Salvador and supports these workers and their families."
+      },
+      {
+        "titulo": "An inclusive team",
+        "texto": "Men, women, and people with specific needs work side by side to do their best for Salvador."
+      }
+    ]
+  }
+}

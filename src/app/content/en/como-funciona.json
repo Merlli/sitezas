@@ -1,0 +1,81 @@
+{
+  "titulo": "How the digital Zona Azul works in Salvador",
+  "introducao": [
+    "Zona Azul is a rotating parking system. It organizes spaces in regulated areas so more people can park through the day.",
+    "When you park in a signed space, check the rule posted there and activate with ZAS or another officially available option."
+  ],
+  "destaque": {
+    "titulo": "Buying credit in the app is not the same as activating parking",
+    "paragrafos": [
+      "Buying credit adds balance you can use later. Activation registers parking for a specific license plate, rule, and period.",
+      "Having a balance in the app does not, by itself, mean the vehicle is in compliance. After you park, finish the activation and check the confirmation."
+    ]
+  },
+  "secoes": [
+    {
+      "id": "fiscalizacao",
+      "titulo": "Enforcement",
+      "trechos": [
+        {
+          "paragrafo": "Enforcement uses the vehicle's license plate. You do not need to leave a receipt on the dashboard when the digital activation is registered correctly."
+        },
+        { "paragrafo": "Always check:" },
+        {
+          "lista": [
+            "license plate",
+            "rule",
+            "start time",
+            "end time",
+            "authentication number"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numero-de-autenticacao",
+      "titulo": "Authentication number",
+      "trechos": [
+        {
+          "paragrafo": "Every parking activation receives an authentication number. That number stays in the app's history and is your parking receipt with Transalvador."
+        }
+      ]
+    },
+    {
+      "id": "tolerancia-de-15-minutos",
+      "titulo": "15-minute grace period",
+      "trechos": [
+        {
+          "paragrafo": "With ZAS, if you move the vehicle within the first 15 minutes of activation, the credit can be returned and used later."
+        }
+      ]
+    },
+    {
+      "id": "vagas-especiais",
+      "titulo": "Older adults and people with disabilities or reduced mobility",
+      "trechos": [
+        {
+          "paragrafo": "Besides activating parking, you must keep the credential card issued by Transalvador on the vehicle's dashboard."
+        },
+        { "paragrafo": "Before you park in a reserved space:" },
+        {
+          "lista": [
+            "make sure you have the required credential",
+            "check that the credential is still valid",
+            "leave it visible on the dashboard",
+            "complete the matching activation, when it is required",
+            "follow the specific signs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operadores-de-zona-azul",
+      "titulo": "Zona Azul attendants",
+      "trechos": [
+        {
+          "paragrafo": "You can also activate parking with Zona Azul attendants from the Union of Parking Attendants and Car Washers of the State of Bahia (Sindguarda). They wear a uniform at the parking spots. With the attendants, you can buy credit by credit card, debit card, or cash."
+        }
+      ]
+    }
+  ]
+}

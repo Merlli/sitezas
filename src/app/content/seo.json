@@ -1,0 +1,30 @@
+{
+  "home": {
+    "titulo": "Zona Azul Salvador: ative pelo celular | ZAS",
+    "descricao": "Confira a sinalização, escolha o tempo correspondente e confirme a ativação para a placa do seu veículo."
+  },
+  "comoFunciona": {
+    "titulo": "Como funciona a Zona Azul Digital de Salvador | ZAS",
+    "descricao": "A Zona Azul é um sistema de estacionamento rotativo. Ela organiza o uso de vagas em áreas regulamentadas para que mais pessoas possam estacionar ao longo do dia."
+  },
+  "estacioneAgora": {
+    "titulo": "Como ativar a Zona Azul em Salvador | ZAS",
+    "descricao": "A regra de estacionamento pode variar conforme o local. Antes de ativar, confira a placa de sinalização e escolha no ZAS a duração correspondente."
+  },
+  "tarifasERegras": {
+    "titulo": "Zona Azul Salvador: valores e regras | ZAS",
+    "descricao": "A tarifa e o tempo de permanência dependem da regra indicada na sinalização do local."
+  },
+  "duvidas": {
+    "titulo": "Dúvidas sobre a Zona Azul de Salvador | ZAS",
+    "descricao": "Dúvidas sobre a Zona Azul Digital de Salvador?"
+  },
+  "suporte": {
+    "titulo": "Suporte e contato | ZAS Zona Azul Salvador",
+    "descricao": "Fale com o Suporte: contato@zaszonaazul.com.br"
+  },
+  "naoEncontrada": {
+    "titulo": "Página não encontrada | ZAS",
+    "descricao": "Página não encontrada."
+  }
+}

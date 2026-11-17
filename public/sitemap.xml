@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sitezas.merlli.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/estacione-agora</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/estacione-agora"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/estacione-agora"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/estacione-agora"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/pt/estacione-agora</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/estacione-agora"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/estacione-agora"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/estacione-agora"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/como-funciona</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/como-funciona"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/como-funciona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/como-funciona"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/pt/como-funciona</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/como-funciona"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/como-funciona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/como-funciona"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/tarifas-e-regras</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/tarifas-e-regras"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/tarifas-e-regras"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/tarifas-e-regras"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/pt/tarifas-e-regras</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/tarifas-e-regras"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/tarifas-e-regras"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/tarifas-e-regras"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/duvidas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/duvidas"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/duvidas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/duvidas"/>
+  </url>
+  <url>
+    <loc>https://sitezas.merlli.com/pt/duvidas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sitezas.merlli.com/duvidas"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sitezas.merlli.com/pt/duvidas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sitezas.merlli.com/duvidas"/>
+  </url>
+</urlset>

@@ -1,0 +1,11 @@
+{
+  "principal": [
+    { "rotulo": "Park now", "secao": "estacione-agora", "rota": "/estacione-agora" },
+    { "rotulo": "Get ZAS", "secao": "baixe-o-zas" },
+    { "rotulo": "How it works", "secao": "como-funciona", "rota": "/como-funciona" },
+    { "rotulo": "Rates and rules", "secao": "tarifas", "rota": "/tarifas-e-regras" },
+    { "rotulo": "Questions", "secao": "duvidas", "rota": "/duvidas" },
+    { "rotulo": "Support", "secao": "suporte" },
+    { "rotulo": "About", "secao": "operacao" }
+  ]
+}

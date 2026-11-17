@@ -1,0 +1,15 @@
+{
+  "titulo": "Rates and rules for Zona Azul Salvador",
+  "introducao": "The price and how long you can stay depend on the rule shown on the sign where you parked.",
+  "tabela": {
+    "colunas": { "regra": "Rule", "duracao": "Duration", "valor": "Price" },
+    "linhas": [
+      { "regra": "Short stay", "duracao": "2 hours", "valor": "R$ 3,00" },
+      { "regra": "Medium stay", "duracao": "6 hours", "valor": "R$ 6,00" },
+      { "regra": "Long stay", "duracao": "12 hours", "valor": "R$ 9,00" },
+      { "regra": "Small event", "duracao": "Variable", "valor": "R$ 10,00" },
+      { "regra": "Large event", "duracao": "Variable", "valor": "R$ 20,00" }
+    ]
+  },
+  "atencao": "**Please note:** each vehicle can have only one active Cartela Azul Digital at a time, and each phone can keep at most two vehicles activated at once. How long you can stay changes from place to place. Before you activate, look at the sign for the space: it shows whether activation is required and which time and price to choose."
+}

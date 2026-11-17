@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sitezas",
+  "compatibility_date": "2026-11-17",
+  "assets": {
+    "directory": "./dist/zas-site/browser",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "sitezas.merlli.com", "custom_domain": true }]
+}
