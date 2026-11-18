@@ -31,7 +31,9 @@ describe('App', () => {
     await fixture.whenStable();
     const el = fixture.nativeElement as HTMLElement;
     expect(el.querySelector('a[href="#conteudo"]')?.textContent?.trim()).toBe(PT.ui.pularParaConteudo);
-    expect(el.querySelector('nav[aria-label="Idioma"] a[aria-current="true"]')?.textContent?.trim()).toBe('PT');
+    const idioma = el.querySelector('nav[aria-label="Idioma"] a');
+    expect(idioma?.textContent?.trim()).toBe('EN');
+    expect(idioma?.getAttribute('aria-label')).toBe(PT.ui.ingles);
   });
 
   it('renderiza um link de navegação para cada item do menu', async () => {

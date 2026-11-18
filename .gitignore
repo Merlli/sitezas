@@ -49,5 +49,6 @@ Thumbs.db
 # Ambiente
 .env
 .env.*
+.painel/
 
 !.env.example

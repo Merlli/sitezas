@@ -67,7 +67,7 @@ ErrorDocument 404 /index.csr.html
 | Cores e animações | `src/styles.css` |
 | Ilustrações e logos | `public/ilustracoes/` e `public/marca/` |
 
-Os textos ficam separados do código. O inglês é o idioma padrão, na raiz do site. O português fica em `/pt`. Os textos em inglês estão em `src/app/content/en/`. Os textos em português continuam em `src/app/content/*.json`. O controle EN | PT no topo abre a mesma página no outro idioma.
+Os textos ficam separados do código. O inglês é o idioma padrão, na raiz do site. O português fica em `/pt`. Os textos em inglês estão em `src/app/content/en/`. Os textos em português continuam em `src/app/content/*.json`. O link PT ou EN no topo abre a mesma página no outro idioma.
 
 Na foto grande e na faixa da operação, `modo` escolhe o que aparece. `imagem` usa a lista `fotos`. `video` troca essas fotos por um YouTube: preencha `youtube` com o link e `videoTitulo` com o nome do vídeo. As fotos ficam no arquivo e voltam quando `modo` volta para `imagem`. Um link que não é do YouTube faz o site mostrar as fotos.
 

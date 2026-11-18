@@ -85,7 +85,8 @@ function ehHome(url: string): boolean {
           />
         </a>
 
-        <nav [attr.aria-label]="ui.navegacaoPrincipal" class="ml-auto hidden xl:block">
+        <div class="ml-auto flex shrink-0 items-center gap-1 sm:gap-3">
+        <nav [attr.aria-label]="ui.navegacaoPrincipal" class="hidden xl:block">
           <ul class="flex items-center gap-0.5">
             @for (item of navegacao.principal; track item.secao) {
               <li>
@@ -103,7 +104,7 @@ function ehHome(url: string): boolean {
         </nav>
 
         <div
-          class="ml-auto transition-[max-width,margin,opacity,visibility] duration-300 ease-out motion-reduce:transition-none"
+          class="transition-[max-width,margin,opacity,visibility] duration-300 ease-out motion-reduce:transition-none"
           [class]="classeAtivar()"
         >
           <a
@@ -137,6 +138,7 @@ function ehHome(url: string): boolean {
             />
           </svg>
         </button>
+        </div>
       </div>
     </header>
 
@@ -261,7 +263,7 @@ export class SiteHeader {
   );
   /** Escondido, o botão encolhe a zero para o menu ocupar o espaço, sem deixar buraco. */
   protected readonly classeAtivar = computed(() =>
-    this.ocultarAtivar() ? 'invisible max-w-0 overflow-hidden opacity-0 xl:ml-0' : 'max-w-xs xl:ml-3',
+    this.ocultarAtivar() ? 'invisible min-w-0 max-w-0 overflow-hidden opacity-0 xl:ml-0' : 'max-w-xs xl:ml-3',
   );
 
   protected ativo(secao: string): boolean {

@@ -298,9 +298,9 @@ async function gravarFotos(lista, grupo, fotosId) {
 async function gravarUnico(collection, dados) {
   try {
     const res = await api.get(`/items/${collection}`);
-    if (res.data?.id) {
-      await api.patch(`/items/${collection}`, dados);
-      return res.data.id;
+    if (res.data) {
+      const atualizado = await api.patch(`/items/${collection}`, dados);
+      return atualizado.data?.id ?? res.data.id;
     }
   } catch (erro) {
     if (erro.status !== 404) throw erro;
@@ -315,7 +315,7 @@ async function gravarId(collection, id, dados) {
     await api.get(caminho);
     await api.patch(caminho, dados);
   } catch (erro) {
-    if (erro.status !== 404) throw erro;
+    if (erro.status !== 404 && erro.status !== 403) throw erro;
     await api.post(`/items/${collection}`, { id, ...dados });
   }
 }
