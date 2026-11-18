@@ -210,7 +210,7 @@ function dividirTitulo(titulo: string): { pergunta: string; resposta: string } |
         <h1
           id="inicio-titulo"
           tabindex="-1"
-          class="text-[2.25rem] leading-[1.05] font-extrabold tracking-[-0.03em] text-balance text-zas-marinho sm:text-5xl lg:text-[3.75rem]"
+          class="text-[2.25rem] leading-[1.05] font-extrabold tracking-[-0.03em] text-balance text-zas-marinho sm:text-5xl xl:text-[3.75rem]"
         >
           @if (tituloEmPartes; as partes) {
             <span class="font-semibold text-zas-marinho">{{ partes.pergunta + ' ' }}</span

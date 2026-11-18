@@ -5,6 +5,18 @@ import { EN, PT } from '@app/content';
 import { filter, map } from 'rxjs';
 import { caminhoDoIdioma, idiomaDaUrl, prefixarCaminho, type Idioma } from './idioma';
 
+/** Mantém o nome “Zona Azul” na mesma linha. O texto em inglês é mais longo e, sem isso, o destaque amarelo corta o nome ao meio. */
+function manterNome<T>(valor: T): T {
+  if (typeof valor === 'string') return valor.replaceAll('Zona Azul', 'Zona\u00A0Azul') as T;
+  if (Array.isArray(valor)) return valor.map((item) => manterNome(item)) as T;
+  if (valor && typeof valor === 'object') {
+    return Object.fromEntries(
+      Object.entries(valor).map(([chave, item]) => [chave, manterNome(item)]),
+    ) as T;
+  }
+  return valor;
+}
+
 @Injectable({ providedIn: 'root' })
 export class ConteudoService {
   private readonly router = inject(Router);
@@ -20,7 +32,7 @@ export class ConteudoService {
 
   readonly idioma = computed(() => idiomaDaUrl(this.url()));
 
-  readonly pacote = computed(() => (this.idioma() === 'pt' ? PT : EN));
+  readonly pacote = computed(() => (this.idioma() === 'pt' ? PT : manterNome(EN)));
 
   constructor() {
     effect(() => {

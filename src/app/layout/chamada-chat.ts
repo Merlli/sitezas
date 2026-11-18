@@ -25,11 +25,11 @@ const ATRASO_MS = 1500;
   template: `
     @if (visivel()) {
       <div
-        class="chamada-chat fundo-claro fixed right-[5.75rem] bottom-6 z-[9999] flex max-w-[calc(100vw-7rem)] items-center gap-1 rounded-2xl bg-white py-1.5 pr-1.5 pl-1 text-zas-marinho shadow-[0_18px_40px_-14px_rgb(14_46_66/0.55)] ring-1 ring-zas-marinho/10"
+        class="chamada-chat fundo-claro fixed right-[5.75rem] bottom-6 z-[9999] flex max-w-[calc(100vw-7rem)] items-center gap-1 rounded-2xl bg-white py-2 pr-2 pl-2 text-zas-marinho shadow-[0_18px_40px_-14px_rgb(14_46_66/0.55)] ring-1 ring-zas-marinho/10"
       >
         <button
           type="button"
-          class="flex flex-col items-start rounded-xl px-3 py-1.5 text-left hover:bg-zas-fundo"
+          class="flex flex-col items-start rounded-xl px-4 py-1.5 text-left hover:bg-zas-fundo"
           (click)="abrir()"
         >
           <span class="text-sm leading-tight text-zas-cinza">{{ ui.chatChamadaPergunta }}</span>
